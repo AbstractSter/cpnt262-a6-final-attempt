@@ -1,39 +1,25 @@
 <script>
-  // let trimmedInput = "";
+  let inputArray = "";
+  let trimmedInput = "";
   let arrayOfObjects = [
     {color: "red"},
     {color: "green"},
     {color: "blue"},
   ];
-
-// function addObject() {
-//     trimmedInput = inputArray.trim();
-// }
-function addObject () {
-  // let inputArray = "";
-  let newColor = '';
-
-  const addColor = {
-    color: newColor,
-  };
-
-  arrayOfObjects = [...arrayOfObjects, addColor];
+function addObject() {
+    trimmedInput = inputArray.trim();
 }
-
-// function handleInput(event) {
-//    inputArray = event.target.value;
-// }
-
-//     // Check if the input value is not empty before adding to the array
-//     if (trimmedInput !== "") {
-//       const newObject = { color: arrayOfObjects.length + 1};
-
-//       // Use push method to add the new object to the array
-//       arrayOfObjects.push(newObject);
-
-//       // Clear the input after adding to the array
-//       inputArray = "";
-//     }
+function handleInput(event) {
+   inputArray = event.target.value;
+}
+    // Check if the input value is not empty before adding to the array
+    if (trimmedInput !== "") {
+      const newObject = { color: arrayOfObjects.length + 1};
+      // Use push method to add the new object to the array
+      arrayOfObjects.push(newObject);
+      // Clear the input after adding to the array
+      inputArray = "";
+    }
   </script>
 
 <div>
@@ -45,7 +31,7 @@ function addObject () {
   </ul>
 
   <label for="text-input">Text input</label>: 
-  <input type="text" id="text-input" bind:value={newColor}>
+  <input type="text" id="text-input" bind:value={inputArray}>
 
   <button on:click={addObject}>Add Object</button>
 </div>
