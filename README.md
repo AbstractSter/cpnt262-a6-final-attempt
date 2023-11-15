@@ -1,38 +1,14 @@
-# create-svelte
+# CPNT 262 - Assignment 6 - Reactivity and Events
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Author: Sterling Smith
 
-## Creating a project
+### [Deployed Site](https://hilarious-macaron-540ea4.netlify.app)
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Search/Research Notes
+- Taking the time to research the syntax that is needed for the task at hand. Then using that syntax to further narrow your search.
+- [Chat GPT](https://chat.openai.com/auth/login) was helpful to understand error codes by copy and pasting them into the chat box.
+- [Svelte documentation!](https://sveltesociety.dev/recipes/svelte-language-fundamentals/reactivity) "ctrl + f" on the Svelte website was very helpful to shorten my search time.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Attributes
+- Classmate help: Chad Certantes, John Dagsa, Calum Holt
+- Instructor help: Ashlyn Knox
